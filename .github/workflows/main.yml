@@ -1,0 +1,8 @@
+name: Test Repo
+
+jobs:
+    review_pulls:
+        runs-on: ubuntu-latest  
+        steps:
+           - name: AI-based PR Reviewer & Summarizer with Chat Capabilities
+            uses: coderabbitai/ai-pr-reviewer@1.16.2
